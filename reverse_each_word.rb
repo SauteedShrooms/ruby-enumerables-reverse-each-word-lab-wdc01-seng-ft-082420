@@ -1,5 +1,6 @@
 require 'pry'
 
 def reverse_each_word(string)
-  string.each do {|string|string.split(/ /)}
+  new_array = string.split(/ /)
+  string.each {|string|string.split(/ /)}
 end
